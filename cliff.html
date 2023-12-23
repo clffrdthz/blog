@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cliff.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand pe-4" href="#">Good Samaritans</a> <!-- Adding padding to the right (adjust the value as needed) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+              
+            </ul>
+        </div>
+    </div>
+</nav>
+     <main>
+      <article>
+      <img src="image/kathniel.jpg" alt="" class="post-img" >
+      <a href="cliff.html" class="title">"KathNiel's break-up, FOR REAL?"</a>  
+      <p class="post-description">Kathryn Bernardo confirmed that she and Daniel Padilla have parted ways after an 11-year relationship.
+
+        In an Instagram post on Thursday, November 30, 2023, Kathryn put an end to long-standing speculation about her breakup with the actor. 
+        "Chapter closed," Kathryn said in the caption of her post.
+        "I hope this finally helps all of us move forward. I won’t be entertaining questions regarding this anymore.
+        "Thank you for understanding."
+        Accompanying this was Kathryn's heartfelt explanation where she admitted to being aware of the circulating rumors about what was happening in her relationship with Daniel.
+        Kathryn didn't provide a reason, but she confessed that she and her boyfriend had been having issues for several months.
+        They allegedly tried to work it out, but they couldn't pretend that their lost relationship could be revived.
+        Despite everything, Kathryn emphasized that she and Daniel maintain respect for each other.
+        Here is Kathryn's full statement:</p>
+    <img src="image/pic1.jpg" alt="" class="post-img1">
+    <p class="post-description">I've been in showbiz for almost 21 years now, 12 years as the one-half of Kathniel, and 11 years as someone who loved Deej even behind the camera.
+       "I didn't grow up in this industry constantly being controlled and dictated on. I was lucky to have had the best guidance and support system when I started my career and I've continuously worked hard to earn people's trust. But since I became an adult, I took it upon myself to take charge of my own life—the projects I work on, the way I dress, the people I surround myself with. I've always tried to be my own person. I was encouraged to think for myself and decide for myself. Even when it comes to love. Especially when it comes to love.
+       "I promised to never lose myself in this industry, so I've always been as authentic to you as I can be. I know what many of you are thinking right now. I'm well aware of the rumors and speculations going around, and as hard as it is to put everything into words, I want you to hear it straight from me: It's true that Deej and I have decided to part ways."These past few months have been tough, but thank you for giving us the time we need to process the pain and finally face the elephant in the room.
+       "Our love story began with respect and ended with respect.</p>
+       <img src="image/kathniel1.jpg" alt="" class="post-img1">
+    <p class="post-description">"Kathniels, we know you are hurting, and trust me, this also hurts us both more than you can imagine. The last thing we want is for this family to break apart with everyone taking sides—please don't. Deej and I will continue to support each other as we try to heal and move forward from this. We will continue to love you and make you proud, but we hope you understand that this is something we really need. We hope you can join us in this healing process and not let those precious memories go to waste. Kaya natin to.
+       "Deej, you gave me 11 beautiful years and the kind of love that I will forever cherish. I will always be grateful for you."</p>
+
+        
+        
+          
+       <div class="reaction-container">
+        <button class="reaction-btn" onmouseover="toggleReactions()"><i class="fa-regular fa-thumbs-up"></i></button>
+        <div class="reaction-emojis" id="reaction-emojis" style="display: none;" onmouseleave="hideReactions()">
+            <span class="emoji" onclick="react('like', '👍')">👍</span>
+       
+            <span class="emoji" onclick="react('love', '❤️')">❤️</span>
+         
+            <span class="emoji" onclick="react('haha', '😄')">😄</span>
+       
+            <span class="emoji" onclick="react('wow', '😲')">😲</span>
+       
+            <span class="emoji" onclick="react('sad', '😢')">😢</span>
+          
+            <span class="emoji" onclick="react('angry', '😠')">😠</span>
+          
+        </div>
+        <div>
+        <button class="comment-btn" onclick="toggleComment()">Comment</button>
+  <button class="share-btn" onclick="openShareDialog()">Share</button>
+
+</div>
+    </div>
+    
+    
+
+<div id="comments-list">
+  <div class="comment">
+      <span class="username">Orb Keith </span>
+      <p class="content">Merry Christmas Kathniel</p>
+  </div>
+  <div class="comment">
+      <span class="username">Orb Ronan</span>
+      <p class="content">Charice ug Jake man gani gabuwag</p>
+  </div>
+
+  <!-- Add more comments as needed -->
+</div>
+
+<div id="comment-field" style="display: none;">
+  <input type="text" id="comment-input" placeholder="Write a comment...">
+  <button onclick="postComment()">Post</button>
+</div>
+</article>    
+  </main>
+  <footer>       
+  <br>
+  <center>&copy; GoodSamarites. Gossip's Playground: Where Secrets Sparkle.</center>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      let reactionStates = {
+    like: false,
+    love: false,
+    haha: false,
+    wow: false,
+    sad: false,
+    angry: false,
+};
+
+function react(reactionType, emoji) {
+    const reactionButton = document.querySelector('.reaction-btn');
+
+    if (!reactionStates[reactionType]) {
+        // Clear other reactions
+        for (let key in reactionStates) {
+            if (key !== reactionType) {
+                reactionStates[key] = false;
+            }
+        }
+
+        // Set the selected reaction
+        reactionStates[reactionType] = true;
+
+        // Set the reaction emoji to the reaction button
+        reactionButton.innerHTML = emoji;
+    } else {
+        // Unreact
+        reactionStates[reactionType] = false;
+
+        // Set the reaction button back to default
+        reactionButton.innerHTML = `<i class="fa-regular fa-thumbs-up"></i>`;
+    }
+}
+
+function hideReactions() {
+    const reactionEmojis = document.getElementById('reaction-emojis');
+    reactionEmojis.style.display = 'none';
+}
+
+function toggleReactions() {
+    const reactionEmojis = document.getElementById('reaction-emojis');
+    reactionEmojis.style.display = reactionEmojis.style.display === 'none' ? 'flex' : 'none';
+}
+
+function toggleComment() {
+    const commentField = document.getElementById('comment-field');
+    commentField.style.display = commentField.style.display === 'none' ? 'block' : 'none';
+}
+
+function postComment() {
+    const commentInput = document.getElementById('comment-input');
+    const comment = commentInput.value.trim();
+
+    if (comment !== '') {
+        const commentsList = document.getElementById('comments-list');
+        const newComment = document.createElement('div');
+        newComment.classList.add('comment');
+
+        const username = document.createElement('span');
+        username.classList.add('username');
+        username.textContent = 'You';
+        
+        const content = document.createElement('p');
+        content.classList.add('content');
+        content.textContent = comment;
+
+        newComment.appendChild(username);
+        newComment.appendChild(content);
+        commentsList.appendChild(newComment);
+
+        commentInput.value = ''; // Clear the input field after posting
+    }
+}
+
+// Other necessary functions...
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

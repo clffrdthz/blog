@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+*{
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 900;
+}
+body{
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* root values */
+:root{
+    --container-color: #1a1e21;
+    --second-color: rgba(77, 228, 255);
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+
+
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+nav {
+    background-color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-links li.logo {
+    margin-right: auto;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+
+
+#home{
+    width: 100%;
+    height: 80vh;
+}
+
+
+.home-text{
+    color: #3080f7;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-title{
+    margin-top: 15%;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+
+.home-subtitle{
+    color: #3080f7;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.about img{
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 15px;
+}
+#about a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    padding: 15px;
+}
+#post{
+    margin-top: 100px;
+}
+
+
+
+    
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: #4e8be7;
+    width: 100%;
+    margin: auto;margin-bottom: auto;
+    justify-content: center;
+}
+.topnav{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.topnav:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+    border-radius: .5rem;
+}
+.card-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card:hover{
+transform: scale(1.1);
+transition: .4s;
+background: #96d5ec;
+}
+    
+
+
