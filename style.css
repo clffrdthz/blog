@@ -69,13 +69,6 @@ nav {
 }
 
 
-
-#home{
-    width: 100%;
-    height: 80vh;
-}
-
-
 .home-text{
     color: #3080f7;
     text-align: center;
@@ -111,7 +104,9 @@ nav {
 #post{
     margin-top: 100px;
 }
-
+#about{
+    margin-top: 20%;
+}
 
 
     
